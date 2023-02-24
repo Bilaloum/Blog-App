@@ -15,6 +15,7 @@ import { TermsAndConditionsComponent } from './pages/terms-and-conditions/terms-
 import { SubscriptionFormComponent } from './subscription-form/subscription-form.component';
 import { CommentFormComponent } from './comments/comment-form/comment-form.component';
 import { CommentListComponent } from './comments/comment-list/comment-list.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { CommentListComponent } from './comments/comment-list/comment-list.compo
     TermsAndConditionsComponent,
     SubscriptionFormComponent,
     CommentFormComponent,
-    CommentListComponent
+    CommentListComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
