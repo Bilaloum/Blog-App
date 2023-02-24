@@ -10,9 +10,3 @@ nav {
     color: var(--primary-color);
 
 }
-
-.navlink:hover {
-    /* background-color: var(--secondary-color);
-    border-radius: 10px;
-    transition: all 0.5s; */
-}
