@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class CategoryNavBarComponent {
 
+  categories:string[] = ['Design','Sport','Fashion','Programming'];
+  constructor(){}
+
+
 }
