@@ -1,0 +1,12 @@
+header {
+    min-height: 200px;
+}
+
+.logo {
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.logo:hover {
+    opacity: .9;
+}
