@@ -16,6 +16,7 @@ import { SubscriptionFormComponent } from './subscription-form/subscription-form
 import { CommentFormComponent } from './comments/comment-form/comment-form.component';
 import { CommentListComponent } from './comments/comment-list/comment-list.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { PostCardComponent } from './layouts/post-card/post-card.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
     SubscriptionFormComponent,
     CommentFormComponent,
     CommentListComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    PostCardComponent
   ],
   imports: [
     BrowserModule,
