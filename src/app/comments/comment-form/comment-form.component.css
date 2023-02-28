@@ -1,0 +1,18 @@
+input,textarea {
+    background-color: var(--secondary-color);
+    padding: 10px;
+}
+label{
+    color: var(--text-color);
+}
+.btn-sub {
+    padding: 10px;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    outline: none;
+}
+
+.title {
+    color: var(--primary-color);
+}

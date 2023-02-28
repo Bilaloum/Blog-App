@@ -1,16 +1,16 @@
 .card {
     background-color: var(--secondary-color);
 }
-
-.btn-sub{
+.btn-sub {
     background-color: var(--primary-color);
     border: none;
 }
 
-input[type="text"],input[type="email"] {
+input[type="text"],
+input[type="email"] {
+    padding: 10px;
     font-size: 1rem;
 }
-
 .sub-text {
     width: 500px;
 }
