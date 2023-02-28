@@ -1,0 +1,7 @@
+.title {
+    color: var(--primary-color);
+}
+.comment-box {
+    background-color: rgb(214, 212, 212);
+    border-radius:8px ;
+}
