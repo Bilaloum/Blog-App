@@ -1,8 +1,4 @@
 .card {
     min-width:400px;
     width: 18rem;
-
-}
-.card-title {
-    color: var(--text-color) !important;
 }

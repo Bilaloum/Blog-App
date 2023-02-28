@@ -35,3 +35,7 @@ body {
 .bg-theme {
     background-color: var(--primary-color);
 }
+
+.card-title {
+    color: var(--text-color) !important;
+}
