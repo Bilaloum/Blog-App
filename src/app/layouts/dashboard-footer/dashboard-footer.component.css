@@ -1,0 +1,9 @@
+footer {
+    max-height: 180px;
+    padding: 15px;
+    background-color: var(--navbar-footer-color);
+}
+
+.logo {
+    font-size: 1.2em;
+}

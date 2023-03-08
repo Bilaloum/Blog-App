@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import "~ngx-toastr/toastr";
 
 :root {
     --primary-color : #006d77;
@@ -32,10 +33,23 @@ body {
     box-shadow: 0px 0px 33px -10px rgba(71, 114, 254, 0.3);
 }
 
-.bg-theme {
+.card-title {
+    color: var(--text-color) !important;
+}
+
+.bg-them-primary {
     background-color: var(--primary-color);
 }
 
-.card-title {
-    color: var(--text-color) !important;
+.bg-them-secondary {
+    background-color: var(--secondary-color);
+}
+
+
+.text-them-primary {
+    color: var(--primary-color);
+}
+
+.text-them-secondary {
+    color: var(--secondary-color);
 }

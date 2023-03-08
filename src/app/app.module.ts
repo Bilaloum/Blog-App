@@ -17,6 +17,16 @@ import { CommentFormComponent } from './comments/comment-form/comment-form.compo
 import { CommentListComponent } from './comments/comment-list/comment-list.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { PostCardComponent } from './layouts/post-card/post-card.component';
+import { DashboardFooterComponent } from './layouts/dashboard-footer/dashboard-footer.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+
+import {  environment} from "../environments/environments.prod";
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { CategoriesComponent } from './dashboard/categories/categories.component';
+import { FormsModule } from '@angular/forms';
+import { ToastrModule } from 'ngx-toastr';
+import { BrowserAnimationsModule  } from "@angular/platform-browser/animations";
 
 @NgModule({
   declarations: [
@@ -34,11 +44,19 @@ import { PostCardComponent } from './layouts/post-card/post-card.component';
     CommentFormComponent,
     CommentListComponent,
     NotFoundComponent,
-    PostCardComponent
+    PostCardComponent,
+    DashboardFooterComponent,
+    DashboardComponent,
+    CategoriesComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFirestoreModule,
+    FormsModule,
+    ToastrModule.forRoot(),
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

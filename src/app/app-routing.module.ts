@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { CategoriesComponent } from './dashboard/categories/categories.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
@@ -15,6 +17,8 @@ const routes: Routes = [
   {path:"aboutus",component:AboutUsComponent},
   {path:"contact",component:ContactUsComponent},
   {path:"terms&condition",component:TermsAndConditionsComponent},
+  {path:"dashboard",component:DashboardComponent},
+  {path:"dashboard/categories",component:CategoriesComponent},
   {path:"",redirectTo:"home",pathMatch:"full"},
   {path:"**", component:NotFoundComponent}
 ];
