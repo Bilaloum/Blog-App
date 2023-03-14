@@ -38,11 +38,11 @@ body {
 }
 
 .bg-them-primary {
-    background-color: var(--primary-color);
+    background-color: var(--primary-color) !important;
 }
 
 .bg-them-secondary {
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-color) !important;
 }
 
 
